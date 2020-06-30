@@ -68,7 +68,7 @@ class Engine {
   // This method is not implemented correctly, which is why
   // the burger never dies. In your exercises you will fix this method.
   isPlayerDead = () => {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 21; i++) {
       if (
         this.player.x === this.enemies[i].x &&
         this.enemies[i].y >= GAME_HEIGHT - PLAYER_HEIGHT - ENEMY_HEIGHT
