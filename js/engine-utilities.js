@@ -28,6 +28,16 @@ const nextEnemySpot = (enemies) => {
     false,
     false,
     false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
   ];
   enemies.forEach((enemy) => {
     spotsTaken[enemy.spot] = true;
@@ -82,6 +92,6 @@ const playMusic = () => {
   audio.play();
 };
 document.getElementById("music").style.height = "50px";
-document.getElementById("music").style.width = "750px";
+document.getElementById("music").style.width = "1500px";
 document.getElementById("music").style.color = "blue";
 document.getElementById("music").style.fontFamily = "sans-serif";
