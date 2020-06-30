@@ -5,7 +5,7 @@
 
 // The GAME_WIDTH and GAME_HEIGHT constants denote the size
 // of the game area in pixels and is used in engine-utilities.js.
-const GAME_WIDTH = 750;
+const GAME_WIDTH = 1500;
 const GAME_HEIGHT = 1000;
 
 // These constants represent the width and height of an enemy in pixels
@@ -16,4 +16,4 @@ const MAX_ENEMIES = 6;
 
 // These constants represent the player width and height.
 const PLAYER_WIDTH = 75;
-const PLAYER_HEIGHT = 54;
+const PLAYER_HEIGHT = 60;
